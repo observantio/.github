@@ -1,18 +1,21 @@
-# 🔭 The "BE" Ecosystem
+# Observantio 🚀
 
-### **What is to "BE" in observability**
+At Observantio, we transform raw noise into actionable intelligence. We’re simplifying the modern observability stack—from LGTM to the edge—by combining high-performance orchestration and AI-driven analysis with seamless incident collaboration. We provide a powerful, full-stack observability platform designed for everyone.
 
-At **Observantio**, we build the tools that turn raw noise into actionable intelligence. We are dedicated to simplifying the modern observability stack (LGTM but not limited to that) by providing high-performance orchestration, AI-driven analysis, and seamless incident collaboration and a full stack observability tool for anyone to use
+![observantio](observantio.png)
+
+
+Our tools are built on top of OSS tools, so you don't have to pay a dime and you are in full control of your data.
 
 ---
 
 ## 🏛 The Ecosystem
 
-We believe that observability shouldn't be a collection of disconnected tabs. Our projects work together to form a unified "Control Plane" on top of your telemetry data that sees it all for free
+We believe that observability shouldn't be a collection of disconnected tabs charging you for every GB ingested, every GB retained and charged per user. Our projects work together to form a unified "Control Plane" on top of your telemetry data that sees it all for free
 
 ### 🛰 [Be Observant](https://github.com/observantio/beobservant)
 
-**The Unified Control Plane.** The entry point for your entire stack. It secures and unifies metrics, logs, traces, AiOps and alerts into a single, RBAC-protected interface. Built for the LGTM stack, it eliminates context-switching and provides a true "Single Pane of Glass."
+**The Unified Control Plane.** The entry point for your entire stack. It secures and unifies metrics, logs, traces, AiOps and alerts into a single, RBAC-protected interface. Built for the LGTM stack, it eliminates context-switching using keys and provides a true "Single Pane of Glass."
 
 ### 🧠 [Be Certain](https://github.com/observantio/becertain)
 
@@ -30,7 +33,7 @@ We build for performance, security, and scale. Our tools are native to the moder
 
 * **Core:** Python (FastAPI), OpenTelemetry (OTLP), Envoy, NGINX and Postgres
 * **Storage and Other Tools** Prometheus/Mimir, Grafana/Loki, Tempo, VictoriaMetrics.
-* **Security:** Asymmetric JWT (RS256), MFA/TOTP, OIDC/Keycloak, HashiCorp Vault Support
+* **Security:** Asymmetric JWT (RS256), MFA/TOTP, OIDC/Keycloak, HashiCorp Vault Support, OTLP_AUTH_TOKENS
 * **Delivery:** Docker Compose, Kubernetes (Coming soon), CI/CD gated with comprehensive Pytest suites.
 
 ---
@@ -39,15 +42,20 @@ We build for performance, security, and scale. Our tools are native to the moder
 
 > **"Observability is not about more data; it's about more answers."**
 
-We are an open-core organization focused on building tools that SREs actually enjoy using. We follow a "Security-First" and "Automation-Always" philosophy for teams of any sizes
+We are an open source organization dedicated to creating tools that SREs genuinely enjoy using. Our approach centers on "Security-First" and "Automation-Always" principles, empowering teams of all sizes to work efficiently and securely.
 
 ### Want to contribute?
 
 We welcome engineers who are passionate about distributed systems, causal analysis, and backend architecture.
 
-1. **Explore:** Check out our "Help Wanted" or "Good First Issue" labels.
-2. **Standardize:** We use strict pre-commit hooks and testing gates across all repos.
-3. **Collaborate:** Join our discussions on incident orchestration and AI-driven RCA.
+### How We Work
+
+1. **Standardize:** We use strict pre-commit hooks and testing gates across all repos.
+2. **Report Issues:** Please report bugs or feature requests via GitHub Issues.
+3. **Pull Requests:** Submit PRs with clear descriptions and reference related issues.
+4. **Code Review:** All contributions are reviewed for quality, security, and style.
+5. **Documentation:** Update docs for any user-facing changes.
+6. **NOTICE** If you do change a file, you may put your name, and include what you changed
 
 ---
 
@@ -55,4 +63,4 @@ We welcome engineers who are passionate about distributed systems, causal analys
 
 All Observantio projects are licensed under the **Apache License 2.0**. We believe in the freedom to innovate while maintaining clear attribution and a strong disclaimer of liability.
 
-*Note: Observantio is an independent organization created by Stefan Kumarasinghe. We are not affiliated with, sponsored by, or endorsed by the official Grafana or Prometheus projects or Victoria Metrics, though we love and build upon their amazing foundations.*
+Note: Observantio is an independent organization created by Stefan Kumarasinghe. We are not affiliated with, sponsored by, or endorsed by the official Grafana or Prometheus projects or Victoria Metrics, though we love and build upon their amazing foundations.
