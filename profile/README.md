@@ -2,7 +2,7 @@
 
 At Observantio, we transform raw noise into actionable intelligence. We’re simplifying the modern observability stack—from LGTM to the edge—by combining high-performance orchestration and AI-driven analysis with seamless incident collaboration. We provide a powerful, full-stack observability platform designed for everyone.
 
-![observantio](observantio.png)
+![observantio](watchdog.png)
 
 
 Our tools are built on top of OSS tools, so you don't have to pay a dime and you are in full control of your data.
@@ -13,17 +13,17 @@ Our tools are built on top of OSS tools, so you don't have to pay a dime and you
 
 We believe that observability shouldn't be a collection of disconnected tabs charging you for every GB ingested, every GB retained and charged per user. Our projects work together to form a unified "Control Plane" on top of your telemetry data that sees it all for free
 
-### 🛰 [Be Observant](https://github.com/observantio/beobservant)
+### 🛰 [Watchdog](https://github.com/observantio/watchdog)
 
 **The Unified Control Plane.** The entry point for your entire stack. It secures and unifies metrics, logs, traces, AiOps and alerts into a single, RBAC-protected interface. Built for the LGTM stack, it eliminates context-switching using keys and provides a true "Single Pane of Glass."
 
-### 🧠 [Be Certain](https://github.com/observantio/becertain)
+### 🧠 [Resolver](https://github.com/observantio/resolver)
 
-**The AI Reasoning Engine.** Stop guessing. **Be Certain** uses custom-built analytics to perform Root Cause Analysis (RCA), anomaly detection, and predictive forecasting. It correlates signals across Loki, Tempo, and Mimir to tell you exactly where the "smoking gun" is.
+**The AI Reasoning Engine.** Stop guessing. **Resolver** uses custom-built analytics to perform Root Cause Analysis (RCA), anomaly detection, and predictive forecasting. It correlates signals across Loki, Tempo, and Mimir to tell you exactly where the "smoking gun" is.
 
-### 🔔 [Be Notified](https://github.com/observantio/benotified)
+### 🔔 [Notifier](https://github.com/observantio/notifier)
 
-**The Incident Hub.** Alerting is only half the battle. **Be Notified** manages the human side—incident lifecycle, team collaboration, Jira syncing, and intelligent alert routing. It ensures the right people get the right data at the right time.
+**The Incident Hub.** Alerting is only half the battle. **Notifier** manages the human side—incident lifecycle, team collaboration, Jira syncing, and intelligent alert routing. It ensures the right people get the right data at the right time.
 
 ---
 
