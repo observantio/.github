@@ -13,19 +13,19 @@ Our tools are built on top of OSS tools, so you don't have to pay a dime and you
 
 We believe that observability shouldn't be a collection of disconnected tabs charging you for every GB ingested, every GB retained and charged per user. Our projects work together to form a unified "Control Plane" on top of your telemetry data that sees it all for free
 
-### 🛰 [Watchdog](https://github.com/observantio/watchdog)
+### 🛰 [Watchdog - Control Plane](https://github.com/observantio/watchdog)
 
 **The Unified Control Plane.** The entry point for your entire stack. It secures and unifies metrics, logs, traces, AiOps and alerts into a single, RBAC-protected interface. Built for the LGTM stack, it eliminates context-switching using keys and provides a true "Single Pane of Glass."
 
-### 🧠 [Resolver](https://github.com/observantio/resolver)
+### 🧠 [Resolver - The RCA Engine](https://github.com/observantio/resolver)
 
 **The AI Reasoning Engine.** Stop guessing. **Resolver** uses custom-built analytics to perform Root Cause Analysis (RCA), anomaly detection, and predictive forecasting. It correlates signals across Loki, Tempo, and Mimir to tell you exactly where the "smoking gun" is.
 
-### 🔔 [Notifier](https://github.com/observantio/notifier)
+### 🔔 [Notifier - Incident and Alerting System](https://github.com/observantio/notifier)
 
 **The Incident Hub.** Alerting is only half the battle. **Notifier** manages the human side—incident lifecycle, team collaboration, Jira syncing, and intelligent alert routing. It ensures the right people get the right data at the right time.
 
-### 🤖 [Ojo](https://github.com/observantio/ojo)
+### 🤖 [Ojo - Lightweight Rust Agent for Win/Lin](https://github.com/observantio/ojo)
 
 **Lightweight OpenTelemetry Host Metrics Agent.** **Ojo** is a small Rust-based system metrics agent that collects host and process telemetry and exports it using OpenTelemetry OTLP. It is specialized for collecting metrics from Windows and most Linux distributions, with Solaris 11.4 support currently in progress.
 
