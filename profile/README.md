@@ -25,6 +25,11 @@ We believe that observability shouldn't be a collection of disconnected tabs cha
 
 **The Incident Hub.** Alerting is only half the battle. **Notifier** manages the human side—incident lifecycle, team collaboration, Jira syncing, and intelligent alert routing. It ensures the right people get the right data at the right time.
 
+### 🤖 [Ojo](https://github.com/observantio/ojo)
+
+**Lightweight OpenTelemetry Host Metrics Agent.** **Ojo** is a small Rust-based system metrics agent that collects host and process telemetry and exports it using OpenTelemetry OTLP. It is specialized for collecting metrics from Windows and most Linux distributions, with Solaris 11.4 support currently in progress.
+
+
 ---
 
 ## 🛠 Our Technology Stack
