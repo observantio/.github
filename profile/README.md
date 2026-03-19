@@ -32,27 +32,6 @@ We believe that observability shouldn't be a collection of disconnected tabs cha
 
 ---
 
-## 🛠 Our Technology Stack
-
-We build for performance, security, and scale. Our tools are native to the modern cloud-native landscape.
-
-* **Core:** Python (FastAPI), OpenTelemetry (OTLP), Envoy, NGINX and Postgres
-* **Storage and Other Tools** Prometheus/Mimir, Grafana/Loki, Tempo, VictoriaMetrics.
-* **Security:** Asymmetric JWT (RS256), MFA/TOTP, OIDC/Keycloak, HashiCorp Vault Support, OTLP_AUTH_TOKENS
-* **Delivery:** Docker Compose, Kubernetes (Coming soon), CI/CD gated with comprehensive Pytest suites.
-
----
-
-## 🤝 Philosophy & Contributions
-
-> **"Observability is not about more data; it's about more answers."**
-
-We are an open source organization dedicated to creating tools that SREs genuinely enjoy using. Our approach centers on "Security-First" and "Automation-Always" principles, empowering teams of all sizes to work efficiently and securely.
-
-### Want to contribute?
-
-We welcome engineers who are passionate about distributed systems, causal analysis, and backend architecture.
-
 ### How We Work
 
 1. **Standardize:** We use strict pre-commit hooks and testing gates across all repos.
