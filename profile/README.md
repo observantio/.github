@@ -1,50 +1,47 @@
-# Observantio 🚀
+<div align="center">
 
-At Observantio, we transform raw noise into actionable intelligence. We’re simplifying the modern observability stack—from LGTM to the edge—by combining high-performance orchestration and AI-driven analysis with seamless incident collaboration. We provide a powerful, full-stack observability platform designed for everyone.
+# Observantio
 
-![observantio](watchdog.png)
+  <img src="wolf.png" alt="Observantio wolf icon" width="170" />
 
+  <p>
+    <img src="https://img.shields.io/badge/Focus-Open%20Observability-1f2937?style=flat-square" alt="Focus" />
+    <img src="https://img.shields.io/badge/Stack-LGTM%20%2B%20Control%20Plane-0f766e?style=flat-square" alt="Stack" />
+    <img src="https://img.shields.io/badge/Model-Self%20Hosted%20%7C%20Multi%20Tenant-0ea5e9?style=flat-square" alt="Model" />
+  </p>
+</div>
 
-Our tools are built on top of OSS tools, so you don't have to pay a dime and you are in full control of your data.
+Observantio builds practical, self-hosted observability products on top of open-source foundations.
+Our goal is simple: make logs, traces, metrics, alerts, and incident response easier to operate as one system.
 
----
+## Ecosystem Repositories
 
-## 🏛 The Ecosystem
+- [Watchdog](https://github.com/observantio/watchdog)  
+  Unified control plane for auth, tenancy, API keys, observability workflows, integrations, and RCA orchestration.
 
-We believe that observability shouldn't be a collection of disconnected tabs charging you for every GB ingested, every GB retained and charged per user. Our projects work together to form a unified "Control Plane" on top of your telemetry data that sees it all for free
+- [Resolver](https://github.com/observantio/resolver)  
+  RCA and analysis engine for anomaly detection, signal correlation, and investigation support.
 
-### 🛰 [Watchdog - Control Plane](https://github.com/observantio/watchdog)
+- [Notifier](https://github.com/observantio/notifier)  
+  Alerting and incident workflow service with channel management and Jira-aware operations.
 
-**The Unified Control Plane.** The entry point for your entire stack. It secures and unifies metrics, logs, traces, AiOps and alerts into a single, RBAC-protected interface. Built for the LGTM stack, it eliminates context-switching using keys and provides a true "Single Pane of Glass."
+- [Ojo](https://github.com/observantio/ojo)  
+  Lightweight telemetry agent for Windows and Linux environments.
 
-### 🧠 [Resolver - The RCA Engine](https://github.com/observantio/resolver)
+## What You Can Expect
 
-**The AI Reasoning Engine.** Stop guessing. **Resolver** uses custom-built analytics to perform Root Cause Analysis (RCA), anomaly detection, and predictive forecasting. It correlates signals across Loki, Tempo, and Mimir to tell you exactly where the "smoking gun" is.
+- Open, auditable architecture built around OSS observability components.
+- Security-first service boundaries (RBAC, tenancy context, scoped ingest).
+- Clear developer workflows with tests, static analysis, and contract testing.
+- Documentation that maps product behavior to real operational tasks.
 
-### 🔔 [Notifier - Incident and Alerting System](https://github.com/observantio/notifier)
+## Contributing
 
-**The Incident Hub.** Alerting is only half the battle. **Notifier** manages the human side—incident lifecycle, team collaboration, Jira syncing, and intelligent alert routing. It ensures the right people get the right data at the right time.
+1. Open an issue for bugs, questions, or feature requests.
+2. Submit pull requests with clear scope and context.
+3. Keep docs aligned with behavior changes.
 
-### 🤖 [Ojo - Lightweight Rust Agent for Win/Lin](https://github.com/observantio/ojo)
+## License
 
-**Lightweight OpenTelemetry Host Metrics Agent.** **Ojo** is a small Rust-based system metrics agent that collects host and process telemetry and exports it using OpenTelemetry OTLP. It is specialized for collecting metrics from Windows and most Linux distributions, with Solaris 11.4 support currently in progress.
-
-
----
-
-### How We Work
-
-1. **Standardize:** We use strict pre-commit hooks and testing gates across all repos.
-2. **Report Issues:** Please report bugs or feature requests via GitHub Issues.
-3. **Pull Requests:** Submit PRs with clear descriptions and reference related issues.
-4. **Code Review:** All contributions are reviewed for quality, security, and style.
-5. **Documentation:** Update docs for any user-facing changes.
-6. **NOTICE** If you do change a file, you may put your name, and include what you changed
-
----
-
-## 📄 License & Legal
-
-All Observantio projects are licensed under the **Apache License 2.0**. We believe in the freedom to innovate while maintaining clear attribution and a strong disclaimer of liability.
-
-Note: Observantio is an independent organization created by Stefan Kumarasinghe. We are not affiliated with, sponsored by, or endorsed by the official Grafana or Prometheus projects or Victoria Metrics, though we love and build upon their amazing foundations.
+All core repositories are Apache 2.0 licensed.  
+Observantio is an independent organization and is not affiliated with or endorsed by Grafana, Prometheus, or VictoriaMetrics.
