@@ -17,15 +17,19 @@ Our goal is simple: make logs, traces, metrics, alerts, and incident response ea
 ## Ecosystem Repositories
 
 - [Watchdog](https://github.com/observantio/watchdog)  
+  **Watchdog - Control Plane**  
   Unified control plane for auth, tenancy, API keys, observability workflows, integrations, and RCA orchestration.
 
 - [Resolver](https://github.com/observantio/resolver)  
+  **Resolver - RCA Engine**  
   RCA and analysis engine for anomaly detection, signal correlation, and investigation support.
 
 - [Notifier](https://github.com/observantio/notifier)  
+  **Notifier - Incident & Alerting Hub**  
   Alerting and incident workflow service with channel management and Jira-aware operations.
 
 - [Ojo](https://github.com/observantio/ojo)  
+  **Ojo - Lightweight Agent**  
   Lightweight telemetry agent for Windows and Linux environments.
 
 ## What You Can Expect
